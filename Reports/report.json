@@ -1,0 +1,30 @@
+[
+    {
+        "User": "terraform-user",
+        "AttachedPolicies": [
+            "AdministratorAccess"
+        ],
+        "AdministratorAccess": true
+    },
+    {
+        "User": "terraform2-user",
+        "AttachedPolicies": [
+            "AdministratorAccess"
+        ],
+        "AdministratorAccess": true
+    },
+    {
+        "User": "test-user-1",
+        "AttachedPolicies": [
+            "AdministratorAccess"
+        ],
+        "AdministratorAccess": true
+    },
+    {
+        "User": "test-user-2",
+        "AttachedPolicies": [
+            "ReadOnlyAccess"
+        ],
+        "AdministratorAccess": false
+    }
+]
