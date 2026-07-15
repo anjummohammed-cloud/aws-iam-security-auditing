@@ -38,8 +38,7 @@ aws-iam-security-auditing/
 │   ├── main.tf            # IAM users + policy attachments (test fixtures)
 │   ├── iam_roles.tf       # reserved for IAM role resources
 │   ├── iam_policies.tf    # reserved for custom policy resources
-│   ├── outputs.tf         # reserved for Terraform outputs
-│   └── .terraform.lock.hcl
+│   └── outputs.tf         # reserved for Terraform outputs
 ├── Python/
 │   ├── audit.py           # main audit script
 │   ├── requirements.txt   # Python dependencies (boto3)
@@ -153,26 +152,26 @@ Either way, the script prints a JSON summary and writes it to `Reports/report.js
 
 ## Screenshots
 
-**Project structure**
-![Project structure](Screenshots/01_project_structure.png)
+### Project Structure
+![Project Structure](Screenshots/01_project_structure.png)
 
-**Terraform apply**
-![Terraform apply](Screenshots/02_terraform_apply.png)
+### Terraform Apply
+![Terraform Apply](Screenshots/02_terraform_apply.png)
 
-**IAM users created**
-![IAM users created](Screenshots/03_iam_users.png)
+### IAM Users Created
+![IAM Users Created](Screenshots/03_iam_users.png)
 
-**AdministratorAccess identified**
-![AdministratorAccess identified](Screenshots/04_admin_access.png)
+### AdministratorAccess Identified
+![AdministratorAccess Identified](Screenshots/04_admin_access.png)
 
-**Test users audit results**
-![Test users audit results](Screenshots/05_test_users_results.png)
+### Test Users Audit Results
+![Test Users Audit Results](Screenshots/05_test_users_results.png)
 
-**Audit results**
-![Audit results](Screenshots/06_audit_results.png)
+### Audit Results
+![Audit Results](Screenshots/06_audit_results.png)
 
-**Generated audit report**
-![Generated audit report](Screenshots/07_audit_report.png)
+### Generated Audit Report
+![Generated Audit Report](Screenshots/07_audit_report.png)
 
-**Docker build success**
-![Docker build success](Screenshots/08_docker_built_success.png)
+### Docker Build Success
+![Docker Build Success](Screenshots/08_docker_built_success.png)
