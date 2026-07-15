@@ -1,19 +1,5 @@
 [
     {
-        "User": "terraform-user",
-        "AttachedPolicies": [
-            "AdministratorAccess"
-        ],
-        "AdministratorAccess": true
-    },
-    {
-        "User": "terraform2-user",
-        "AttachedPolicies": [
-            "AdministratorAccess"
-        ],
-        "AdministratorAccess": true
-    },
-    {
         "User": "test-user-1",
         "AttachedPolicies": [
             "AdministratorAccess"
@@ -22,6 +8,20 @@
     },
     {
         "User": "test-user-2",
+        "AttachedPolicies": [
+            "AdministratorAccess"
+        ],
+        "AdministratorAccess": true
+    },
+    {
+        "User": "test-user-3",
+        "AttachedPolicies": [
+            "AdministratorAccess"
+        ],
+        "AdministratorAccess": true
+    },
+    {
+        "User": "test-user-4",
         "AttachedPolicies": [
             "ReadOnlyAccess"
         ],
